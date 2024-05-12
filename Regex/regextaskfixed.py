@@ -1,7 +1,5 @@
 import re
 
-namesfile = open("BabyNames2000.html", "r")
-
 def RemovingOfNewLines(inputFile):
     ReturnInputString = " "
     file = open(inputFile, "r")
@@ -65,8 +63,8 @@ def Output(dictNames, largerGenderR):
             print(f"Ranking in popularity overall: {number} Male: {Instances[0]}, Female: {Instances[1]}")
             number += 1
 
-contentFile = "BabyNames2000.html"
-lGR = 'k'
+contentFile = "BabyNames2010.html"
+lGR = 'N'
 dictNames = {}
 
 content = RemovingOfNewLines(contentFile)
