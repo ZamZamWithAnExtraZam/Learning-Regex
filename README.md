@@ -1,6 +1,7 @@
 Learning Regex in Python
 
 Basic Regex code implemented as regex.py
+
 Regex creating showcasing list of data extracted from 
 page of Popular Baby Names taken from the Social Security website
 
